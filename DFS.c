@@ -7,7 +7,7 @@ void insereFila(int lista[20], int vertice);
 
 int main(){
     FILE *arquivo;
-    arquivo = fopen("matriz", "r");
+    arquivo = fopen("matriz.txt", "r");
     int grafo[20][20];
     int visitados[20];
     int lista[20];
