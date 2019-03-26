@@ -5,7 +5,7 @@ void dfs(int grafo[20][20], int visitados[20], int vertice);
 
 int main(){
     FILE *arquivo;
-    arquivo = fopen("matriz", "r");
+    arquivo = fopen("matriz.txt", "r");
     int grafo[20][20];
     int visitados[20];
     int v1, v2, peso;
